@@ -5,7 +5,7 @@
   height: 800px;
   background-image: url(https://static.pexels.com/photos/8989/pexels-photo.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .container
@@ -80,4 +80,53 @@
   background-color: black;
   height: 200px;
   color: white;
+}
+.qui
+{
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    background-image: url(http://arscube.com/wp-content/uploads/2009/08/inspiration-web-design.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-attachment: fixed;
+
+}
+.nous
+{
+  color: #FBB03B;
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  top: 350px;
+  width: 100%;
+}
+.team
+{
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  background-image: url(http://static1.squarespace.com/static/556433f5e4b0a715f94a2ae1/t/558874cbe4b0bb81f4870d43/1435006155866/?format=300w);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  background-color: white;
+  background-position: center;
+
+
+}
+.valeursTeam
+{
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #6E7277;
+  background-color: transparent;
+  font-family: SourceSansPro-ExtraLight;
+  font-style: italic;
+}
+@font-face {
+  'font-family: SourceSansPro-ExtraLight';
+  src url('SourceSansPro-ExtraLight.otf')
 }
