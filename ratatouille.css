@@ -1,5 +1,7 @@
 .legumes
 {
+  width: 100%;
+  margin: auto;
   height: 800px;
   background-image: url(https://static.pexels.com/photos/8989/pexels-photo.jpeg);
   background-repeat: no-repeat;
@@ -9,6 +11,7 @@
 .container
 {
   text-align: center;
+  align-content: center;
 }
 
 .clair
@@ -30,8 +33,8 @@
   padding: 125px 80px;
   box-shadow: 0 0 15px 5px grey;
   margin-bottom: 100px;
-  line-height: 25px;
   float: left;
+  line-height: 25px;
 }
 
 .accroche
@@ -42,4 +45,39 @@
 .col-xs-3
 {
   padding-top: 45px;
+}
+
+.img-resto
+{
+  height: 200px;
+  border: 4px solid transparent;
+}
+
+.img1, .img2
+{
+  display: block;
+  margin-top: 50px;
+}
+
+.description
+{
+  text-align: left;
+  padding-left: 50px;
+}
+
+.bg1
+{
+  background-image: url(https://static.pexels.com/photos/34615/pexels-photo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-top: 40px;
+  color: white;
+}
+
+.footer
+{
+  background-color: black;
+  height: 200px;
+  color: white;
 }
