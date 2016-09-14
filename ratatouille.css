@@ -8,7 +8,7 @@
   background-size: cover;
 }
 
-.container
+.container-centered
 {
   text-align: center;
   align-content: center;
@@ -80,4 +80,16 @@
   background-color: black;
   height: 200px;
   color: white;
+}
+
+.par1
+{
+  padding-top: 70px;
+  text-align: justify;
+}
+
+.form
+{
+  padding-top: 70px;
+  width: 400px;
 }
