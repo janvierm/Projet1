@@ -6,6 +6,16 @@
   background-image: url(https://static.pexels.com/photos/8989/pexels-photo.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.text-wrapper
+{
+  position: absolute;
+  top: 50%;
+  left: 50%;
 }
 
 .centered
@@ -32,6 +42,7 @@
   border: 15px solid black;
   padding: 125px 80px;
   box-shadow: 0 0 15px 5px grey;
+  margin-bottom: 60px;
   line-height: 25px;
 }
 
@@ -65,11 +76,12 @@
 
 .bg1
 {
-  background-image: url(https://static.pexels.com/photos/34615/pexels-photo.jpg);
+  background-image: url(https://static.pexels.com/photos/8395/lights-night-unsharp-blured.jpg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   box-sizing: border-box;
   padding-top: 40px;
+  padding-bottom: 40px;
   color: white;
 }
 
@@ -80,6 +92,11 @@
   color: white;
 }
 
+.contact
+{
+  text-align: center;
+  line-height: 10px;
+}
 .par1
 {
   padding-top: 70px;
