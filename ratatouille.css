@@ -5,10 +5,10 @@
   height: 800px;
   background-image: url(https://static.pexels.com/photos/8989/pexels-photo.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
-.container-centered
+.centered
 {
   text-align: center;
   align-content: center;
@@ -32,8 +32,6 @@
   border: 15px solid black;
   padding: 125px 80px;
   box-shadow: 0 0 15px 5px grey;
-  margin-bottom: 100px;
-  float: left;
   line-height: 25px;
 }
 
@@ -56,7 +54,7 @@
 .img1, .img2
 {
   display: block;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .description
