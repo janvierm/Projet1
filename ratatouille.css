@@ -1,4 +1,45 @@
+.legumes
+{
+  height: 800px;
+  background-image: url(https://static.pexels.com/photos/8989/pexels-photo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .container
 {
   text-align: center;
+}
+
+.clair
+{
+  background-image: url(http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-top: 100px;
+}
+
+.valeurs
+{
+  background-image: url(http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img2.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  border: 15px solid black;
+  padding: 125px 80px;
+  box-shadow: 0 0 15px 5px grey;
+  margin-bottom: 100px;
+  line-height: 25px;
+  float: left;
+}
+
+.accroche
+{
+  padding-bottom: 15px;
+}
+
+.col-xs-3
+{
+  padding-top: 45px;
 }
