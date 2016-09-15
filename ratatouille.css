@@ -5,7 +5,7 @@
   height: 800px;
   background-image: url(https://static.pexels.com/photos/8989/pexels-photo.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
 }
 
 .container
@@ -80,4 +80,114 @@
   background-color: black;
   height: 200px;
   color: white;
+}
+.qui
+{
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    background-image: url(http://arscube.com/wp-content/uploads/2009/08/inspiration-web-design.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    background-attachment: fixed;
+
+}
+.nous
+{
+  color: #FBB03B;
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  top: 350px;
+  width: 100%;
+}
+.team
+{
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  background-image: url(http://static1.squarespace.com/static/556433f5e4b0a715f94a2ae1/t/558874cbe4b0bb81f4870d43/1435006155866/?format=300w);
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+  background-color: white;
+  background-position: center;
+
+
+}
+.valeursTeam
+{
+  padding-top: 10px;
+  font-size: 25px;
+  text-align: center;
+  color: #6E7277;
+  background-color: transparent;
+  font-family: SourceSansPro-ExtraLight;
+  font-style: italic;
+}
+@font-face {
+  'font-family: SourceSansPro-ExtraLight';
+  src url('SourceSansPro-ExtraLight.otf')
+}
+
+
+/* Transitions */
+.transition-050 {
+  -moz-transition: 0.50s;
+  -webkit-transition: 0.50s;
+  -ms-transition: 0.50s;
+  -o-transition: 0.50s;
+  transition: 0.50s;
+}
+.opacity85{
+  opacity: 0.85;
+  filter: alpha(opacity=85);
+}
+body { background-color:black; color:#eee}
+.module { max-width: 500px; margin:auto; }
+.module figure {
+  position: relative;
+  overflow: hidden;
+  border:1px solid #fff;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.module .small {
+  float: left;
+  width: 50%;
+}
+.module figure img {
+  display: block;
+  max-width: 100%;
+}
+.module figcaption {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  max-height: 27px;
+}
+.module .text {
+  color: #7A8B8B;
+  background-color: #fff;
+  font-size:0.90em;
+}
+.module figure:hover figcaption { max-height: 100%;}
+.module figure:hover figcaption .text {
+  background-color: #7A8B8B;
+  color:#fff;
+}
+.module figcaption a { display: block; text-decoration:none; }
+.module .title {
+  display: inline-block;
+  padding: 5px;
+  text-transform:uppercase;
+}
+.module .desc {
+  display: block;
+  padding: 15px;
+}
+.bgcolor {
+  background-color: #fff;
 }
