@@ -51,7 +51,10 @@
 {
   padding-bottom: 15px;
 }
-
+em
+{
+  font-weight: bold;
+}
 .col-xs-3
 {
   padding-top: 45px;
@@ -88,8 +91,10 @@
 
 .footer
 {
-  background-color: #FAFAFA;
+  background-color: Lavender;
   color: #1E2024;
+  overflow: hidden;
+  padding-top: center;
 }
 
 .mentions
@@ -143,7 +148,7 @@
 .nous
 {
   color: #FBB03B;
-  font-size: 50px;
+  font-size: 25px;
   position: absolute;
   text-align: center;
   top: 350px;
@@ -161,6 +166,7 @@
   position: relative;
   background-color: white;
   background-position: center;
+
 }
 
 .valeursTeam
