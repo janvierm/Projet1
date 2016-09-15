@@ -3,7 +3,7 @@
   width: 100%;
   margin: auto;
   height: 800px;
-  background-image: url(https://static.pexels.com/photos/8989/pexels-photo.jpeg);
+  background-image: url(image/banniere.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -27,7 +27,7 @@
 
 .clair
 {
-  background-image: url(http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img1.jpg);
+  background-image: url(image/fondblanc.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   box-sizing: border-box;
@@ -36,7 +36,7 @@
 
 .valeurs
 {
-  background-image: url(http://www.pixel-industry.com/html/royal-plate/img/pics/bkg-img2.png);
+  background-image: url(image/moulin.png);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
@@ -77,7 +77,7 @@
 
 .bg1
 {
-background-color: #1E2024;
+  background-color: #1E2024;
   background-repeat: no-repeat;
   background-size: 100%;
   box-sizing: border-box;
@@ -126,18 +126,20 @@ background-color: #1E2024;
   border: 8px solid black;
   box-shadow: 0 0 8px 5px grey;
 }
+
 .qui
 {
     width: 100%;
     margin: auto;
     height: 600px;
-    background-image: url(http://arscube.com/wp-content/uploads/2009/08/inspiration-web-design.png);
+    background-image: url(image/inspiration.png);
     background-repeat: no-repeat;
     background-size: 100%;
     position: relative;
     background-attachment: fixed;
 
 }
+
 .nous
 {
   color: #FBB03B;
@@ -147,20 +149,20 @@ background-color: #1E2024;
   top: 350px;
   width: 100%;
 }
+
 .team
 {
   width: 100%;
   margin: auto;
   height: 400px;
-  background-image: url(http://static1.squarespace.com/static/556433f5e4b0a715f94a2ae1/t/558874cbe4b0bb81f4870d43/1435006155866/?format=300w);
+  background-image: url(image/nous.png);
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
   background-color: white;
   background-position: center;
-
-
 }
+
 .valeursTeam
 {
   padding-top: 10px;
@@ -190,7 +192,13 @@ background-color: #1E2024;
   opacity: 0.85;
   filter: alpha(opacity=85);
 }
-body { background-color:black; color:#eee}
+
+.mosaique
+{
+  background-color: black;
+  color:#eee;
+}
+
 .module { max-width: 500px; margin:auto; }
 .module figure {
   position: relative;
