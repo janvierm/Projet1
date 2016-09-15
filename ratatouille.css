@@ -14,9 +14,8 @@
 
 .text-wrapper
 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  position: static;;
+  padding-top: 300px;
 }
 
 .centered
@@ -89,10 +88,13 @@ background-color: #1E2024;
 .footer
 {
   background-color: #FAFAFA;
-  height: 200px;
   color: #1E2024;
 }
 
+.mentions
+{
+  text-align: left;
+}
 .contact
 {
   text-align: center;
@@ -107,5 +109,5 @@ background-color: #1E2024;
 .form
 {
   padding-top: 70px;
-  width: 400px;
+  width: 600px;
 }
