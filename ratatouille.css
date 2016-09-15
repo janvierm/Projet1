@@ -2,7 +2,7 @@
 {
   width: 100%;
   margin: auto;
-  height: 800px;
+  height: 100vh;
   background-image: url(https://static.pexels.com/photos/8989/pexels-photo.jpeg);
   background-repeat: no-repeat;
   background-size: 100%;
@@ -12,12 +12,12 @@
   color: white;
 }
 
-.text-wrapper
+.legumes h1
 {
-  position: absolute;
-  top: 50%;
-  left: 40%;
+  text-align: center;
+  padding-top: 200px;
 }
+
 
 .centered
 {
@@ -190,7 +190,12 @@ background-color: #1E2024;
   opacity: 0.85;
   filter: alpha(opacity=85);
 }
-body { background-color:black; color:#eee}
+
+.mosaique
+{
+  background-color:black;
+  color:#eee;
+}
 .module { max-width: 500px; margin:auto; }
 .module figure {
   position: relative;
