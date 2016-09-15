@@ -36,11 +36,6 @@ body
   font-weight: bold;
 }
 
-.logo
-{
-  height: 50px;
-}
-
 .centered
 {
   text-align: center;
@@ -73,7 +68,10 @@ body
 {
   padding-bottom: 15px;
 }
-
+em
+{
+  font-weight: bold;
+}
 .col-xs-3
 {
   padding-top: 45px;
@@ -112,6 +110,13 @@ body
 {
   background-color: Lavender;
   color: #1E2024;
+  overflow: hidden;
+  padding-top: center;
+}
+
+.footer img
+{
+  padding-bottom: 15px;
 }
 
 .mentions
@@ -167,7 +172,7 @@ body
 .nous
 {
   color: #FBB03B;
-  font-size: 50px;
+  font-size: 25px;
   position: absolute;
   text-align: center;
   top: 350px;
@@ -185,6 +190,7 @@ body
   position: relative;
   background-color: white;
   background-position: center;
+
 }
 
 .valeursTeam
