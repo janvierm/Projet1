@@ -2,6 +2,7 @@
 {
   width: 100%;
   margin: auto;
+  height: 100vh;
   height: 800px;
   background-image: url(image/banniere.jpeg);
   background-repeat: no-repeat;
@@ -12,11 +13,10 @@
   color: white;
 }
 
-.text-wrapper
+.legumes h1
 {
-  position: absolute;
-  top: 50%;
-  left: 40%;
+  text-align: center;
+  padding-top: 300px;
 }
 
 .centered
@@ -195,7 +195,7 @@
 
 .mosaique
 {
-  background-color: black;
+  background-color:black;
   color:#eee;
 }
 
