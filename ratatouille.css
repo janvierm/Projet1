@@ -1,3 +1,17 @@
+body
+{
+  font-family: SourceSansPro-ExtraLight;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 100%;
+  padding: 5px;
+  width: auto;
+}
+
 .legumes
 {
   width: 100%;
@@ -11,12 +25,15 @@
   position: relative;
   text-align: center;
   color: white;
+  opacity: 0.9;
 }
 
 .legumes h1
 {
   text-align: center;
-  padding-top: 300px;
+  padding-top: 400px;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 .centered
@@ -97,6 +114,11 @@ em
   padding-top: center;
 }
 
+.footer img
+{
+  padding-bottom: 15px;
+}
+
 .mentions
 {
   text-align: left;
@@ -113,6 +135,8 @@ em
   text-align: justify;
 }
 
+
+
 .par2
 {
   padding-top: 50px;
@@ -121,14 +145,14 @@ em
 
 .form
 {
-  padding-top: 0px;
+  padding-bottom: 50px;
   width: 600px;
 }
 
 .resto
 {
   height: 280px;
-  border: 8px solid black;
+  border: 6px solid black;
   box-shadow: 0 0 8px 5px grey;
 }
 
